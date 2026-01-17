@@ -1,0 +1,16 @@
+{
+  "name": "Old Silent Saw",
+  "description": "Brings back the old quiet spin.",
+  "image" : "icon.png",
+  "author": "[6IX]",
+  "contact": "https://steamcommunity.com/id/sayll/",
+  "color" : "255 0 0",
+  "version": "1.0",
+  "blt_version": 2,
+  "hooks": [
+    {
+      "hook_id": "lib/managers/group_ai_states/groupaistatebase",
+      "script_path": "true_silent_motor_saw.lua"
+    }
+  ]
+}
